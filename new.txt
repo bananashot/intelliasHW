@@ -1,2 +1,2 @@
 initial main
-hello conflict
+hello conflict (fixed)
