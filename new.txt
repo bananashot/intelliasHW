@@ -1,2 +1,2 @@
 initial main
-conflict that cannot be resolved for sure :)
+conflict that cannot be resolved for sure :) (or not - fixed)
