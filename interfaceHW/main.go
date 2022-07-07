@@ -77,8 +77,9 @@ func printFarmData(animals []animalTotal) float64 {
 	var totalFood float64
 
 	for _, animal := range animals {
-		fmt.Printf("%v with weight %v kg will eat %v kg food per month.\n", strings.Title(animal.String()), animal.returnkWeight(), animal.calcFoodPerMonth())
-		totalFood += animal.calcFoodPerMonth()
+		foodPerMonth := animal.calcFoodPerMonth()
+		fmt.Printf("%v with weight %v kg will eat %v kg food per month.\n", strings.Title(animal.String()), animal.returnkWeight(), foodPerMonth)
+		totalFood += foodPerMonth
 	}
 
 	return totalFood
